@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UFT-8">
+        <meta name="viewport" content="wifth=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="Style\Style.css">
+        <title>Регистрация</title>
+    </head>
+    <body>
+        <h1>Форма регистрации</h1>
+        <audio src="D:/NSU_MAga/Web/Занятие 3/Style/GAYAZOV_BROTHER_-_YA_TY_i_MORE_(musmore.com).mp3" controls></audio>
+        <div > <img src="Style/7153625.jpg" alt="type" class="images"></div>
+
+        <form action="#" method="get">
+            <fieldset>
+                <legend>Личная информация</legend>
+                <label for="Username">Имя: </label>
+                <input type="text" name="Username" id="Username" placeholder="Введите ваше имя" required tabindex="1">
+                <br>
+                <label for="Usermail">Почта: </label>
+                <input type="email" name="Usermail" id="Usermail" placeholder="example@gmail.com" required tabindex="2">
+                <br>
+                <label for="Age">Дата рождения: </label>
+                <input type="data" name="Age" id="Age" max="01.01.2005" required tabindex="3">
+                <br>
+                <p>Ваш пол: </p>
+                <label for="Sexm">Мужской: </label>
+                <input type="radio" name="Sex" id="Sexm">
+                <label for="Sexw">Женский: </label>
+                <input type="radio" name="Sex" id="Sexw">
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>О путешествии</legend>
+                <label for="days">Дни: </label>
+                <input type="number" name="Days" id="days" min="1" max="21" placeholder="Введите желаемое количество дней поездки" tabindex="4">
+                <br>
+                <p>Желаемая страна поезки</p>
+                <label for="Turkey">Турция </label>
+                <input type="checkbox" name="country" id="Turkey">
+                <label for="Egypt">Египет </label>
+                <input type="checkbox" name="country" id="Egypt">
+                <label for="Greese">Греция </label>
+                <input type="checkbox" name="country" id="Greese">
+                <label for="Maldive">Мальдивы </label>
+                <input type="checkbox" name="country" id="Maldive">
+                <label for="Dominicana">Доминикана </label>
+                <input type="checkbox" name="country" id="Dominicana">
+                <br>
+
+                <label for="Class">Уровень отеля </label>
+                <select name="Class" id="Class">
+                    <option value="Ultra All">Ultra allinclusive</option>
+                    <option value="All">Allinclusive</option>
+                    <option value="5Star">5 звезд</option>
+                    <option value="4Star">4 звезд</option>
+                    <option value="3Star">3 звезд</option>
+                </select>
+            </fieldset>
+                
+
+
+
+
+
+                <label for="password">Пароль </label>
+                <input type="password" name="password" id="password" required tabindex="4">
+                <br>
+            
+            
+            <button type="submit">Отправить</button>
+            <button type="reset">Отчистить</button>
+        </form>
+    </body>
+</html>
